@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML Semântico</title>
+</head>
+
+<body>
+  <!-- inicio cabeçalho -->
+  <header class="main-header">
+
+    <h1 class="main-header__title">Meu Blog</h1> <!-- titulo principal -->
+
+    <!-- links de navegação -->
+    <nav class="main-header__menu">
+      <ul>
+        <li><a href="/home">Página inicial</a></li>
+        <li><a href="/categorias">Categorias</a></li>
+        <li><a href="/contato">Contato</a></li>
+        <li><a href="/sobremim">Sobre mim</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <!-- fim cabeçalho -->
+
+  <!-- inicio conteúdo principal -->
+  <main role="main">
+
+    <!-- inicio da área de posts -->
+    <section>
+      <!-- Inicio do primeiro post -->
+      <article>
+
+        <header>
+          <h2>Meu post</h2> <!-- título do post -->
+          <time datetime="2018-05-17">Postado em 17/05/2018</time> <!-- data do post -->
+        </header>
+
+        <section>
+          <h4>Parte 1</h4>
+          <p>jasndfjkansd;afjk</p>
+        </section>
+
+        <section>
+          <h4>Parte 2</h4>
+          <p>jasndfjkansd;afjk</p>
+        </section>
+
+        <footer>
+          <a href="conteudo do artigo">Continuar lendo</a> <!-- link para o post -->
+          <!-- tags relacionadas ao post -->
+          <ul>
+            <li><a>Tag 1</a></li>
+            <li><a>Tag 2</a></li>
+            <li><a>Tag 3</a></li>
+          </ul>
+        </footer>
+
+      </article>
+      <!-- fim do primeiro post -->
+
+      <!-- Inicio do segundo post -->
+      <article>
+        <div>
+          <h2>Meu post 2</h2>
+          <div>Postado em 06/04/2020</div>
+        </div>
+        <div>Conteudo do post...</div>
+        <div>
+          <div>Continuar lendo</div>
+          <div>
+            <div>Tag 1</div>
+            <div>Tag 4</div>
+            <div>Tag 6</div>
+          </div>
+        </div>
+      </article>
+      <!-- fim do segundo post -->
+
+    </section>
+    <!-- fim da área de posts -->
+
+    <!-- links para outros posts -->
+    <aside>
+      <ul>
+        <li><a>Meu primero post</a></li>
+        <li><a>Meu segundo post</a></li>
+        <li><a>Meu terceiro post</a></li>
+        <li><a>Meu quarto post</a></li>
+        <li><a>Meu quinto post</a></li>
+      </ul>
+    </aside>
+
+  </main>
+  <!-- fim conteúdo principal -->
+
+  <!-- inicio do rodapé -->
+  <footer>
+    <ul>
+      <li>
+        <a href="/facebook">Facebook</a>
+      </li>
+      <li>
+        <a href="/google">Google Plus</a>
+      </li>
+      <li>
+        <a href="/twitter">Twitter</a>
+      </li>
+    </ul>
+  </footer>
+  <!-- fim do rodapé -->
+
+</body>
+
+</html>
