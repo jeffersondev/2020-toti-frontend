@@ -1,0 +1,30 @@
+html {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-content {
+    margin: 0 40px;
+}
+
+p {
+    background-color: orange !important;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 400px;
+}
+
+.first-paragraph {
+    background-color: yellow !important;
+    color: black;
+    border-bottom: 10px solid red;
+}
+
+#first {
+    background-color: green;
+}
+
+
+/* h2 {
+
+} */

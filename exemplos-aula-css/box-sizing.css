@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+main.container {
+    display: flex;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+div.element {
+    /* width: 100px;
+    height: 100px; */
+    background-color: yellow;
+    margin: 5px;
+    display: inline;
+}
+
+div.content {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+footer {
+    background-color: darkorange;
+    padding: 10px;
+}
+
+p {
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.primeiro {
+    display: none;
+}
