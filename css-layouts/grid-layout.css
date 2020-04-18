@@ -5,7 +5,10 @@
     display: grid;
     grid-template-columns: 200px 200px 200px 200px;
     grid-template-rows: 100px auto 50px;
-    grid-template-areas: "header . . ." "main main . sidebar" "footer footer footer footer";
+    grid-template-areas:
+        "header header header header"
+        "main main . sidebar"
+        "footer footer footer footer";
 }
 
 header {
