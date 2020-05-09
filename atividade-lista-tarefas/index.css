@@ -1,0 +1,65 @@
+/* https://coolors.co/247ba0-70c1b3-b2dbbf-f3ffbd-ff1654 */
+
+* {
+    font-family: 'Caveat', cursive;
+    color: #247BA0;
+}
+
+html,
+button,
+input[type=text] {
+    font-family: 'Caveat', cursive;
+    color: #247BA0;
+    font-size: 20px;
+    background-color: #F3FFBD;
+}
+
+.container {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Modak', cursive;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FF1654;
+}
+
+.add-task {
+    margin-top: 2rem;
+    min-width: 300px;
+    display: flex;
+}
+
+.add-task__text {
+    flex-grow: 2;
+    margin-right: 10px;
+    border: none;
+    border-bottom: 1px solid #70C1B3;
+}
+
+.add-task__action {
+    padding: 0.2rem 1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    background-color: #247BA0;
+}
+
+.task-list {
+    margin-top: 1rem;
+    min-width: 300px;
+}
+
+.task-list__item,
+.task-list__item--done {
+    margin: 0.1rem 0;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border-bottom: 1px solid #B2DBBF;
+}
