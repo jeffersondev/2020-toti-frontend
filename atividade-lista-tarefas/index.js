@@ -3,7 +3,6 @@ const botaoAdicionar = document.querySelector("#add-task-button")
 const listaDeTarefas = document.querySelector(".task-list")
 
 function adicionarTarefa(event) {
-    event.preventDefault()
     if (novaTarefaInput.checkValidity() === false) {
         return;
     }
@@ -12,6 +11,7 @@ function adicionarTarefa(event) {
     novoItem.classList.add("task-list__item")
     listaDeTarefas.appendChild(novoItem)
     novaTarefaInput.value = ""
+    novaTarefaInput.focus()
 }
 
 botaoAdicionar.addEventListener("click", adicionarTarefa)
