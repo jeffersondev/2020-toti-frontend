@@ -59,7 +59,17 @@ input[type=text] {
 
 .task-list__item,
 .task-list__item--done {
+    display: flex;
+    justify-content: space-between;
     margin: 0.1rem 0;
     padding: 0.5rem 0 0.5rem 1rem;
     border-bottom: 1px solid #B2DBBF;
+}
+
+.task-list__item--done {
+    text-decoration: line-through;
+}
+
+.task-list__action {
+    border: none;
 }

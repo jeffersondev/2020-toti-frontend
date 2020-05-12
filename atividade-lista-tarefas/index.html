@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lista de tarefas</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat|Modak&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="index.css">
 </head>
@@ -16,18 +17,31 @@
     <h1 class="title">Lista de tarefas</h1>
 
     <form class="add-task">
-      <input class="add-task__text" type="text" name="new-task" id="new-task" placeholder="Digite aqui sua tarefa">
-      <button type="button" class="add-task__action">add</button>
+      <input class="add-task__text" type="text" name="new-task" id="new-task" placeholder="Digite aqui sua tarefa"
+        required>
+      <button id="add-task-button" type="submit" class="add-task__action">
+        add
+      </button>
     </form>
 
     <ul class="task-list">
-      <li class="task-list__item">estudar html</li>
-      <li class="task-list__item">estudar css</li>
-      <li class="task-list__item">estudar bootstrap</li>
-      <li class="task-list__item">fazer atividade de lista de tarefas</li>
+      <li class="task-list__item">
+        tarefa de exemplo
+        <button class="task-list__action" type="button">
+          <i class="fas fa-check-square"></i>
+        </button>
+      </li>
+      <li class="task-list__item--done">
+        tarefa concluida de exemplo
+        <button class="task-list__action" type="button">
+          <i class="fas fa-undo-alt"></i>
+        </button>
+      </li>
     </ul>
 
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
 
