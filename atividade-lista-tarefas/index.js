@@ -3,7 +3,7 @@ const botaoAdicionar = document.querySelector("#add-task-button")
 const listaDeTarefas = document.querySelector(".task-list")
 
 function adicionarTarefa(event) {
-    if (novaTarefaInput.checkValidity() === false) {
+    if (novaTarefaInput.value === "") {
         return;
     }
     const novoItem = document.createElement("li")
