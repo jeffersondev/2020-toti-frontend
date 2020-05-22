@@ -1,0 +1,14 @@
+[
+  {
+    "descricao": "Tarefa 1",
+    "completa": true
+  },
+  {
+    "descricao": "Tarefa 2",
+    "completa": true
+  },
+  {
+    "descricao": "Tarefa 3",
+    "completa": false
+  }
+]

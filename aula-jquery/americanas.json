@@ -1,0 +1,1068 @@
+{
+    "_result": {
+        "limit": 24,
+        "offset": 0,
+        "total": 8
+    },
+    "aggregations": [
+        {
+            "filtered": true,
+            "id": "category.id",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        }
+                    },
+                    "count": 8,
+                    "filtered": true,
+                    "title": "Notebook Gamer",
+                    "value": "438750"
+                }
+            ],
+            "title": "Categoria",
+            "type": "category"
+        },
+        {
+            "filtered": false,
+            "id": "discount-range",
+            "title": "Descontos",
+            "type": "product"
+        },
+        {
+            "filtered": true,
+            "id": "extra.MARCA",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 8,
+                    "filtered": true,
+                    "title": "avell",
+                    "value": "avell"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22dell%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/dell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 56,
+                    "filtered": false,
+                    "title": "dell",
+                    "value": "dell"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22acer%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/acer/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 40,
+                    "filtered": false,
+                    "title": "acer",
+                    "value": "acer"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22lenovo%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/lenovo?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 11,
+                    "filtered": false,
+                    "title": "lenovo",
+                    "value": "lenovo"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22asus%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/asus/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 6,
+                    "filtered": false,
+                    "title": "asus",
+                    "value": "asus"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22samsung%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/samsung?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 6,
+                    "filtered": false,
+                    "title": "samsung",
+                    "value": "samsung"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%222+a.m.%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/2%20a.m./avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 5,
+                    "filtered": false,
+                    "title": "2 a.m.",
+                    "value": "2 a.m."
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22msi%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/msi?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 5,
+                    "filtered": false,
+                    "title": "msi",
+                    "value": "msi"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22hp%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/hp?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 4,
+                    "filtered": false,
+                    "title": "hp",
+                    "value": "hp"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%222+a.m%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/2%20a.m/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 4,
+                    "filtered": false,
+                    "title": "2 a.m",
+                    "value": "2 a.m"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22fender%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/fender?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 4,
+                    "filtered": false,
+                    "title": "fender",
+                    "value": "fender"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22aerocool%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/aerocool/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 4,
+                    "filtered": false,
+                    "title": "aerocool",
+                    "value": "aerocool"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22alienware%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/alienware/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 3,
+                    "filtered": false,
+                    "title": "alienware",
+                    "value": "alienware"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22gigabyte%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/gigabyte?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 3,
+                    "filtered": false,
+                    "title": "gigabyte",
+                    "value": "gigabyte"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22vila+brasil%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/vila%20brasil?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 3,
+                    "filtered": false,
+                    "title": "vila brasil",
+                    "value": "vila brasil"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22linervix%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/linervix?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 2,
+                    "filtered": false,
+                    "title": "linervix",
+                    "value": "linervix"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22foxpc%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/foxpc?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 2,
+                    "filtered": false,
+                    "title": "foxpc",
+                    "value": "foxpc"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22dhgate%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/dhgate?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 2,
+                    "filtered": false,
+                    "title": "dhgate",
+                    "value": "dhgate"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%222+am%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/2%20am/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "2 am",
+                    "value": "2 am"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%222a.m.%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/2a.m./avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "2a.m.",
+                    "value": "2a.m."
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22alienware+15%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/alienware%2015/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "alienware 15",
+                    "value": "alienware 15"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22apple%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/apple/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "apple",
+                    "value": "apple"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22funko%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/funko?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "funko",
+                    "value": "funko"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22gamer%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/gamer?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "gamer",
+                    "value": "gamer"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22gamer+dell%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/gamer%20dell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "gamer dell",
+                    "value": "gamer dell"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22kingston%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/kingston?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "kingston",
+                    "value": "kingston"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22mondial%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/mondial?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "mondial",
+                    "value": "mondial"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22philco%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/philco?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "philco",
+                    "value": "philco"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22politorno%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/politorno?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "politorno",
+                    "value": "politorno"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22predator%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/predator?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "predator",
+                    "value": "predator"
+                }
+            ],
+            "title": "Marca",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "variation.delivery",
+            "title": "Tipos de entrega",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "extra.PROCESSADOR",
+            "title": "Processador",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "extra.SISTEMAOPERACIONAL",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.SISTEMAOPERACIONAL%22%2C%22value%22%3A%22sem+sistema+operacional%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/f/sistema-operacional-sem%20sistema%20operacional?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "sem sistema operacional",
+                    "value": "sem sistema operacional"
+                }
+            ],
+            "title": "Sistema Operacional",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "extra.POLEGADASDATELA",
+            "title": "Tamanho da Tela",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "extra.MEMORIARAM",
+            "title": "Memória RAM",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "extra.PLACADEVIDEO",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.PLACADEVIDEO%22%2C%22value%22%3A%22gtx+1650%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/f/placa-de-video-gtx%201650?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "gtx 1650",
+                    "value": "gtx 1650"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22extra.PLACADEVIDEO%22%2C%22value%22%3A%22rtx+2060%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/f/placa-de-video-rtx%202060?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "rtx 2060",
+                    "value": "rtx 2060"
+                }
+            ],
+            "title": "Placa de Vídeo",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "extra.HD",
+            "title": "Capacidade do HD",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "variation.extra.COR",
+            "title": "Cor",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "variation.price",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.price%22%2C%22value%22%3A%227444.0%3A7944.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/preco-7444.0:7944.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "7444.0:7944.0",
+                    "value": "7444.0:7944.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.price%22%2C%22value%22%3A%228444.0%3A8944.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/preco-8444.0:8944.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 1,
+                    "filtered": false,
+                    "title": "8444.0:8944.0",
+                    "value": "8444.0:8944.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.price%22%2C%22value%22%3A%226444.0%3A6944.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/preco-6444.0:6944.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "6444.0:6944.0",
+                    "value": "6444.0:6944.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.price%22%2C%22value%22%3A%226944.0%3A7444.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/preco-6944.0:7444.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "6944.0:7444.0",
+                    "value": "6944.0:7444.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.price%22%2C%22value%22%3A%227944.0%3A8444.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/preco-7944.0:8444.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "7944.0:8444.0",
+                    "value": "7944.0:8444.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.price%22%2C%22value%22%3A%228944.0%3A9444.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/preco-8944.0:9444.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "8944.0:9444.0",
+                    "value": "8944.0:9444.0"
+                }
+            ],
+            "title": "Preço",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "rate",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22rate%22%2C%22value%22%3A%220.0%3A5.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/avaliacao-0.0:5.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 8,
+                    "filtered": false,
+                    "title": "0.0:5.0",
+                    "value": "0.0:5.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22rate%22%2C%22value%22%3A%224.0%3A5.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/avaliacao-4.0:5.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "4.0:5.0",
+                    "value": "4.0:5.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22rate%22%2C%22value%22%3A%223.0%3A5.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/avaliacao-3.0:5.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "3.0:5.0",
+                    "value": "3.0:5.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22rate%22%2C%22value%22%3A%222.0%3A5.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/avaliacao-2.0:5.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "2.0:5.0",
+                    "value": "2.0:5.0"
+                },
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22rate%22%2C%22value%22%3A%221.0%3A5.0%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/avaliacao-1.0:5.0?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 0,
+                    "filtered": false,
+                    "title": "1.0:5.0",
+                    "value": "1.0:5.0"
+                }
+            ],
+            "title": "Avaliação",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "variation.sellerName",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.sellerName%22%2C%22value%22%3A%22Avell%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/l/Avell/m/avell?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 2,
+                    "filtered": false,
+                    "title": "Avell",
+                    "value": "Avell"
+                }
+            ],
+            "title": "Loja",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "variation.condition",
+            "options": [
+                {
+                    "_links": {
+                        "self": {
+                            "href": "/search?filter=%7B%22id%22%3A%22category.id%22%2C%22value%22%3A%22438750%22%2C%22fixed%22%3Atrue%7D\u0026filter=%7B%22id%22%3A%22extra.MARCA%22%2C%22value%22%3A%22avell%22%2C%22fixed%22%3Afalse%7D\u0026filter=%7B%22id%22%3A%22variation.condition%22%2C%22value%22%3A%22NEW%22%2C%22fixed%22%3Afalse%7D\u0026sortBy=topSelling\u0026source=omega\u0026suggestion=true\u0026testab=searchTestAB%3Dold"
+                        },
+                        "turbo": {
+                            "href": "/slug/url/categoria/informatica/notebook/notebook-gamer/m/avell/g/condicao-NEW?ordenacao=topSelling"
+                        }
+                    },
+                    "count": 2,
+                    "filtered": false,
+                    "title": "Novo",
+                    "value": "NEW"
+                }
+            ],
+            "title": "Condição",
+            "type": "product"
+        },
+        {
+            "filtered": false,
+            "id": "presale",
+            "title": "Pré-venda",
+            "type": "product"
+        }
+    ],
+    "content": {},
+    "products": [
+        {
+            "id": "84878685",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878687_4SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer G1555 MUV GTX 1660Ti Core i7 16GB NVME 500GB 15.6\""
+        },
+        {
+            "id": "84878631",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878633_4SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer G1555 MUV GTX 1650 Core i7 16GB NVME 500GB 15.6\""
+        },
+        {
+            "id": "84878642",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_4SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_5GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_5SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_6GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_6SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_7GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_7SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_8GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/84878/6/84878644_8SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer Avell G1550 MUV RTX 2070 (8GB) Core i9 16GB M.2 512GB Prata"
+        },
+        {
+            "id": "83044612",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/6/83044610_4SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer Avell G1750 MUV RTX 2060 (6GB) Core i7 16GB M.2 512GB 17.3\" Preto"
+        },
+        {
+            "id": "83522998",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_4SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_5GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_5SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_6GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_6SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_7GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_7SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_8GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_8SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_9GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522996_9SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer Avell G1750 Muv Rtx 2080 (8gb) Core I7 16gb M.2 512gb 17.3\" Preto"
+        },
+        {
+            "id": "83044551",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_4SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_5GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_5SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_6GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_6SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_7GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_7SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_8GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_8SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_9GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83044/5/83044553_9SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer Avell G1750 MUV GTX 1650 Core i7 16GB NVME 500GB 17.3\""
+        },
+        {
+            "id": "83522994",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_4SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_5GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_5SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_6GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_6SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_7GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_7SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_8GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_8SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_9GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522995_9SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer Avell G1750 Muv Rtx 2070 (8gb) Core I7 16gb M.2 512gb 17.3\" Preto"
+        },
+        {
+            "id": "83522997",
+            "images": [
+                {
+                    "small": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999P.jpg",
+                    "medium": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999P1.jpg",
+                    "big": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999G1.jpg",
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_1GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_1SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_2GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_2SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_3GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_3SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_4GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_4SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_5GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_5SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_6GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_6SZ.jpg"
+                },
+                {
+                    "large": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_7GG.jpg",
+                    "extraLarge": "https://images-americanas.b2w.io/produtos/01/00/img/83522/9/83522999_7SZ.jpg"
+                }
+            ],
+            "name": "Notebook Gamer Avell G1550 Muv Rtx 2070 (8gb) Core I7 16gb M.2 512gb 15.6\" Prata"
+        }
+    ],
+    "sortBy": "topSelling"
+}
